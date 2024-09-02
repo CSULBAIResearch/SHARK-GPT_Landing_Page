@@ -1,0 +1,76 @@
+
+.club__footer-container{
+    width: 100%;
+
+    background: radial-gradient(#000000,#251729);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 1.5em 1em 0 1em;
+}
+
+.club__footer-name{
+    width: 35vw;
+    color: white;
+}
+
+.club__footer-name h1{
+    text-align: left;
+}
+
+
+
+
+
+.club__footer-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:1.5em;
+}
+
+.footer__btn-mainweb{
+    background: white;
+    color: black;
+    font-weight: 700;
+    font-family: var(--font-base);
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 20px;
+    padding: 1.0rem 2.5rem;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    transition: transform 0.3s ease-out, 
+    background-color 0.3s ease-out, 
+    color 0.3s ease-out;
+}
+
+.footer__btn-mainweb:hover{
+    transform: scale(1.1);
+    color: black;
+    background-color: #ffb703;
+}
+
+.club__footer-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px
+}
+
+
+.club__footer-licens{
+    color: white;
+    margin-top: 2rem;
+}
+
+
+
+
+

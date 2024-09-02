@@ -1,0 +1,41 @@
+
+.club__memberpage{
+    background: radial-gradient(#1a1a38,#000000);
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.club__member-container{
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    padding: 20px;
+
+}
+
+.memberContainer-description p{
+    margin-top: 0.5em;
+}
+
+
+@media screen and (max-width: 1024px){
+    .club__member-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width: 780px){
+    .club__member-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 500px){
+    .club__member-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+

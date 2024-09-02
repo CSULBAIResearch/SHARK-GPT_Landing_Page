@@ -1,0 +1,26 @@
+
+
+.member__component{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.memberContainer-img{
+    position: relative;
+    overflow: hidden;
+}
+
+.memberContainer-img img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.memberContainer-description p{
+    font-size: 25px;
+    text-align: center;
+}
+
