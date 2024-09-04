@@ -26,8 +26,11 @@ const LandingPage = () => {
     fetch(
         googleSheetEndpoint,
       {
+        redirect: "follow",
+
         method: "POST",
         body: formData,
+
       }
     )
       .then((res) => res.json())
