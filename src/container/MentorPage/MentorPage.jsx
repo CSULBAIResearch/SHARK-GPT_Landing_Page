@@ -1,6 +1,6 @@
 import React from "react";
 import './MentorPage.css';
-import {RobotImg} from "../../constant"
+//import {RobotImg} from "../../constant"
 import { MemberComponent } from "../../component";
 import { MentorImg } from "../../constant";
 

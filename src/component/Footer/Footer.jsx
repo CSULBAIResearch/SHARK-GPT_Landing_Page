@@ -13,7 +13,7 @@ const Footer = () => (
 
             <div className="club__footer-middle">
                 <div className="main-website">
-                    <a href="https://csulbairesearch.github.io/AI_Research_Website/" target="blank">
+                    <a href="https://csulbairesearch.github.io/AI_Research_Website/" target="blank" rel="noopener noreferrer">
                     <button className="footer__btn-mainweb">Learn more about us at AI_Research Club</button>
                     </a>
                     
@@ -22,20 +22,20 @@ const Footer = () => (
 
             <div className="club__footer-links">
 
-                <a href="https://www.instagram.com/csulb_ai_research/" target="_blank">
+                <a href="https://www.instagram.com/csulb_ai_research/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram color="#fff" fontSize={40} cursor={"pointer"}/>
                 </a>
 
 
-                <a href="https://github.com/CSULBAIResearch" target="_blank">
+                <a href="https://github.com/CSULBAIResearch" target="_blank" rel="noopener noreferrer">
                     <FaGithub color="#fff" fontSize={40} cursor={"pointer"}/>
                 </a>
                 
-                <a href="https://www.youtube.com/@AI-Researchcsulb" target="_blank">
+                <a href="https://www.youtube.com/@AI-Researchcsulb" target="_blank" rel="noopener noreferrer">
                     <FaYoutubeSquare color="#fff" fontSize={40} cursor={"pointer"}/>
                 </a>
                 
-                <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank">
+                <a href="https://www.linkedin.com/company/csulb-arc/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedinIn color="#fff" fontSize={40} cursor={"pointer"}/>
                 </a>
                
