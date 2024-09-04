@@ -44,22 +44,21 @@ const LandingPage = () => {
   return (
     <div className="club__landingpage box__container section__padding" id="home">
       <div className="club__landingpage-content">
-        <h1 className="p__fira-headline-yellow">SHARK GPT</h1>
+        <h1 className="p__fira-headline-yellow">MEET SHARK GPT 🦈</h1>
         <p className="p__fira landing-description">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-          standard dummy text ever since the 1500s.
+        Just ask, and let Shark GPT guide you through all the information you need from the CSULB website. Dive into the CSULB experience like never before!
         </p>
       </div>
 
       <div className="club__landing-content-btn">
         <p className="p__fira headline">JOIN OUR WAITLIST</p>
         <p className="p__fira descriptions">
-          Join our waitlist and receive regular updates delivered straight to your inbox.
+        Be the First to Experience Shark GPT!
         </p>
 
         <div className="button-wrapper">
           <form className="form" onSubmit={(e) => SubmitForm(e)} ref={formRef}>
-            <input placeholder="Your Email" name="Email" type="text" />
+            <input placeholder="                   Your Student Email" name="Email" type="text" />
 
             <button className="SubmitButton" type="submit">
               {submitted ? (

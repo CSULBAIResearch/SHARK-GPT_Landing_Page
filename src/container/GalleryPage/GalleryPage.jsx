@@ -6,9 +6,7 @@ const GalleryPage = () =>(
     <div className="club__galleryPage section__padding flex__center box__container" id="gallery">
         <div className="club__galleryPage-content">
             <h1 className="headtext__inter">ABOUT <span>SHARK GPT</span></h1>
-            <p className="p__fira">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 
-                been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
-                galley of type and scrambled it to make a type specimen book.
+            <p className="p__fira">Shark GPT is your personal AI assistant, designed by students to help you navigate CSULB effortlessly. Just ask questions and receive instant answers directly from the CSULB website—whether it's about courses, events, or campus resources. With Shark GPT, finding what you need at CSULB has never been simpler or more efficient.
             </p>
         </div>
 
