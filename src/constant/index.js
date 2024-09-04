@@ -3,6 +3,7 @@ import MemberData from "./memberData"
 import RobotImg from "../assets/robotsample.jpg"
 import SampleImg from "../assets/Sample Imgjpg.jpg"
 import MentorImg from "../assets/memberImg/Rahul_Vishwakarma.jpg"
+import Club_logo from "../assets/AI_research_logo.png"
 
 import SharkGPT1 from "../assets/SharkGPTimg/SharkGPT1_dark.png"
 import SharkGPT2 from "../assets/SharkGPTimg/SharkGPT2_dark.png"
@@ -18,6 +19,7 @@ export{
     MemberData,
     SampleImg,
     MentorImg,
+    Club_logo,
 
     SharkGPT1,
     SharkGPT2,

@@ -2,7 +2,7 @@
 import React, {} from 'react';
 import { IoMenu } from "react-icons/io5";
 import { BiMenuAltRight } from "react-icons/bi";
-
+import { Club_logo } from '../../constant';
 
 import "./Navbar.css"
 
@@ -15,18 +15,22 @@ const Navbar = () => {
     <div className="club__navbar-container">
 
         <nav className="club__navbar">
+            <div className="club__navbar-headline-content">
+                <img src={Club_logo} width={50} alt="clubLogo" />
+                <p className='club__navbar-headline-club'>SHARK-GPT</p>
+            </div>
 
-            <p>AI Research Club CSULB</p>
+            
             <ul className="club__navbar-links">
-                <li><a href="#home">Home</a></li>
+                {/* <li><a href="#home">Home</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#video">Video</a></li>
                 <li><a href="#team">Team</a></li>
-                <li><a href="#mentor">Mentor</a></li>
+                <li><a href="#mentor">Mentor</a></li> */}
             </ul>
 
             <div className="club__navbar-join">
-                    <a href="#join">Subscribe</a>
+                    {/* <a href="#join">Subscribe</a> */}
             </div>
 
             <div className="club__navbar-smallscreen">

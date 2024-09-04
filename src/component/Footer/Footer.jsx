@@ -1,6 +1,7 @@
 import React from "react";
 
 import { FaGithub, FaLinkedinIn, FaYoutubeSquare, FaInstagram   } from "react-icons/fa";
+import { Club_logo } from "../../constant";
 
 import "./Footer.css"
 
@@ -8,7 +9,8 @@ const Footer = () => (
     <div className="club__footer-container section__padding" id="team">
         <div className="club__footer-content">
             <div className="club__footer-name">
-                <h1 className="headtext__inter">AI RESEARCH CLUB CSULB</h1>
+                <img src={Club_logo} width={60} alt="clubLogo" />
+                <h1 className="headtext__inter">SHARK-GPT</h1>
             </div>
 
             <div className="club__footer-middle">

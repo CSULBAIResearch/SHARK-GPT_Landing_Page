@@ -9,7 +9,7 @@ import "./LandingPage.css";
 const LandingPage = () => {
 
     const googleSheetEndpoint = process.env.REACT_APP_GOOGLE_SHEET_ENDPOINT;
-
+    console.log(googleSheetEndpoint);
 
     const [submitted, setSubmitted] = useState(false);
     let showmess = false;

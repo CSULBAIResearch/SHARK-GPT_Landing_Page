@@ -1,7 +1,6 @@
-import RobotImg from "../assets/robotsample.jpg"
 import ShauLim from "../assets/memberImg/Shaun_Lim.jpg"
 import ShreyModi from "../assets/memberImg/Shrey Modi.jpg"
-
+import CamilleWong from "../assets/memberImg/CamilleWong.jpg"
 
 const memberDatas = [
     {
@@ -19,7 +18,7 @@ const memberDatas = [
     {
         name: "Camille Wong",
         major: "Computer Science",
-        memberImg:RobotImg,
+        memberImg:CamilleWong,
     },
 ]
 

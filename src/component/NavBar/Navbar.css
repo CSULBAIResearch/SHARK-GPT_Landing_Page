@@ -25,6 +25,18 @@
     z-index: 1000;  /* Ensures it stays above other content when scrolling */
 }
 
+.club__navbar-headline-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.club__navbar-headline-content p{
+    font-size: 40px;
+}
+
 .club__navbar-links{
     flex: 1;
     

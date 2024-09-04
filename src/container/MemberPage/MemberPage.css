@@ -27,7 +27,7 @@
     }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 850px){
     .club__member-container{
         grid-template-columns: repeat(2,1fr);
     }
