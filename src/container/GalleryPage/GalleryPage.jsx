@@ -1,6 +1,6 @@
 import React from "react";
 import "./GalleryPage.css"
-import { SampleImg } from "../../constant";
+import { SharkGPT1,SharkGPT2, SharkGPT3, SharkGPT4 } from "../../constant";
 
 const GalleryPage = () =>(
     <div className="club__galleryPage section__padding flex__center box__container" id="gallery">
@@ -13,10 +13,10 @@ const GalleryPage = () =>(
         </div>
 
         <div className="club__galleryPage-imgGrid">
-            <img src={SampleImg} alt="sampleImg" />
-            <img src={SampleImg} alt="sampleImg" />
-            <img src={SampleImg} alt="sampleImg" />
-            <img src={SampleImg} alt="sampleImg" />
+            <img src={SharkGPT1} alt="sampleImg" />
+            <img src={SharkGPT2} alt="sampleImg" />
+            <img src={SharkGPT3} alt="sampleImg" />
+            <img src={SharkGPT4} alt="sampleImg" />
         </div>
 
     </div>

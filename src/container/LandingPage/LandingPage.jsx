@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import "./LandingPage.css";
-import { IoIosCheckmark } from "react-icons/io"; // Importing the checkmark icon, not used in this example
+// import { IoIosCheckmark } from "react-icons/io"; // Importing the checkmark icon, not used in this example
 
 
 
